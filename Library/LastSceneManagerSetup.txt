@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Makaka Games/XR Survival Shooter/Scenes/Game_ARSurvivalShooter.unity
+  isLoaded: 1
+  isActive: 1
