@@ -51,32 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\CrossPlatformInputManager.cs" />
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\Joystick.cs" />
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\MobileControlRig.cs" />
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\PlatformSpecific\MobileInput.cs" />
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-     <Compile Include="Assets\_Complete-Game\MobileInput\Scripts\VirtualInput.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Audio\MixLevels.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyAttack.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyHealth.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Enemy\EnemyMovement.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Helpers\RandomAnimationPoint.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Helpers\RandomParticlePoint.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Helpers\VolumeHandler.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Managers\EnemyManager.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Managers\GameOverManager.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Managers\PauseManager.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Managers\ScoreManager.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Player\PlayerHealth.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Player\PlayerMovement.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Player\PlayerShooting.cs" />
      <Compile Include="Assets\Makaka Games\AR Background\CameraAsBackground.cs" />
      <Compile Include="Assets\Makaka Games\AR Camera GYRO\Scripts\GyroCameraControl.cs" />
      <Compile Include="Assets\Makaka Games\Everyday Tools\SceneControl\Scripts\LoadScreenControl.cs" />
      <Compile Include="Assets\Makaka Games\Everyday Tools\SceneControl\Scripts\LoadScreenProgressControl.cs" />
      <Compile Include="Assets\Makaka Games\Everyday Tools\SceneControl\Scripts\MenuSceneControl.cs" />
+     <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Enemy\BasicAI.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Enemy\EnemyAttackXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Enemy\EnemyHealthXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Enemy\EnemyMovementXR.cs" />
@@ -84,12 +64,15 @@
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Managers\EnemyManagerXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Managers\GameOverManagerXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Managers\ScoreManagerXR.cs" />
+     <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Managers\TimeManagerXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Player\PlayerHealthXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Player\PlayerMovementXR.cs" />
      <Compile Include="Assets\Makaka Games\XR Survival Shooter\Scripts\Player\PlayerShootingXR.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\LocalNavMeshBuilder.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshLink.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifier.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+     <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSourceTag.cs" />
      <Compile Include="Assets\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />

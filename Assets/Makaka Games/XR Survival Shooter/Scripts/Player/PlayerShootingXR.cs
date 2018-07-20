@@ -4,7 +4,8 @@ public class PlayerShootingXR : MonoBehaviour
 {
     public int damagePerShot = 20;                  // The damage inflicted by each bullet.
     public float timeBetweenBullets = 0.15f;        // The time between each shot.
-    public float range = 100f;                      // The distance the gun can fire.
+    public float range = 1000f;                      // The distance the gun can fire.
+	public float thickness = 5f;
     public PlayerMovementXR playerMovement;    
 
     float timer;                                    // A timer to determine when to fire.
@@ -106,7 +107,7 @@ public class PlayerShootingXR : MonoBehaviour
         shootRay.direction = transform.forward;
 
         // Perform the raycast against gameobjects on the shootable layer and if it hits something...
-        if(Physics.Raycast (shootRay, out shootHit, range, shootableMask))
+		if(Physics.SphereCast (shootRay.origin, thickness, shootRay.direction, out shootHit, range, shootableMask))
         {
             // Try and find an EnemyHealth script on the gameobject hit.
             EnemyHealthXR enemyHealth = shootHit.collider.GetComponent <EnemyHealthXR> ();

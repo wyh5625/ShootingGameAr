@@ -7,6 +7,10 @@ TagManager:
   - PlayerDamageZone
   - ImageTarget
   - ARPlayground
+  - destPoint
+  - enemy
+  - Timer
+  - ARGround
   layers:
   - Default
   - TransparentFX
